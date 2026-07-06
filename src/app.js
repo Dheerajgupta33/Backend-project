@@ -10,6 +10,7 @@ app.use(cors({
     credentials: true
 
 }))
+// these are expess middlewares
 
 app.use(express.json({limit:"16kb"}))
 app.use(express.urlencoded({extended:true, limit:   // used for url encoded data
